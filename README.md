@@ -16,6 +16,8 @@ Console logs of numbers one to the user entered number. Multiples of three and f
 Given the inputs, what are the steps to return the desired output?
 User enters number into command line,
 Program loops through numbers one to the users number,
-Program checks for muliples of three and give each loop,
+Program checks for muliples of three and five each loop,
 Program replaces muliples with either Fizz, Buzz or FizzBuzz
 Program prints result of loops to console
+
+Check if input is not NaN
