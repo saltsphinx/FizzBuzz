@@ -1,0 +1,40 @@
+<head>
+
+</head>
+<body>
+    <script>
+        let userNumber = +prompt('Enter a number you\'d like to FizzBuzz.', 1);
+
+        for (let n = 1; n <= userNumber; n++){
+            switch (n) {
+                case isFizz(n): 
+                    console.log(n);
+                break;
+
+                case isBuzz(n): 
+                    isBuzz(n);
+                break;
+
+                case isFizzBuzz(n): 
+                    isFizzBuzz(n);
+                break;
+
+                default: 
+                console.log(n);
+            }
+        }
+
+        function isFizz(num) {
+            if (num % 3 === 0) return true;
+        }
+
+        function isBuzz(num) {
+            if (num % 5 === 0) return true;
+        }
+
+        function isFizzBuzz(num) {
+            if (num % 3 === 0 && num % 5 === 0) return true;
+        }
+
+    </script>
+</body>
